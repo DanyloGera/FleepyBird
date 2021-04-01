@@ -14,11 +14,11 @@ pipeUp.src = "img/flappy_bird_pipeUp.png";
 pipeBottom.src = "img/flappy_bird_pipeBottom.png";
 
 // Звуковые файлы
-var fly = new Audio();
-var score_audio = new Audio();
-
-fly.src = "audio/fly.mp3";
-score_audio.src = "audio/score.mp3";
+// var fly = new Audio();
+// var score_audio = new Audio();
+//
+// fly.src = "audio/fly.mp3";
+// score_audio.src = "audio/score.mp3";
 
 var gap = 130; //між перешкодами(верх і низ)
 
@@ -71,7 +71,7 @@ function draw() {
 // додавання рахунку
  if(pipe[i].x == 50) {
  score++;
- score_audio.play();
+ // score_audio.play();
  }
  }
  if (score === 20) {
