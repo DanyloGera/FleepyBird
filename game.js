@@ -74,8 +74,8 @@ function draw() {
  // score_audio.play();
  }
  }
- if (score === 20) {
-    clearInterval( alert("You did it!"), document.location.href="https://danylogera.github.io/game-3/");
+ if (score === 2) {
+    clearInterval( alert("You did it!"), window.location.href="https://danylogera.github.io/game-3/");
   }
 
  ctx.drawImage(fg, 0, cvs.height - fg.height);
